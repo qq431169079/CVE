@@ -1,6 +1,7 @@
 # Captcha reuse with [```ajax-boot-modal```](https://github.com/Alimir/ajax-bootmodal-login) WordPress plugin  
 * Affected: ```ajax-bootmodal-login``` WordPress plugin.
 * Version: `1.4.3` and possibly prior
+* Privileges required: None
 * Author: [Lydéric Lefebvre](https://www.linkedin.com/in/lydericlefebvre/)
 
 ## Index
