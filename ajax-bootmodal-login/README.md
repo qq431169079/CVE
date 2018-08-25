@@ -1,7 +1,7 @@
 # Captcha reuse with [```ajax-boot-modal```](https://github.com/Alimir/ajax-bootmodal-login) WordPress plugin  
 * Affected: ```ajax-bootmodal-login``` WordPress plugin.
 * Version: `1.4.3` and possibily prior
-* Author: [Lydéric 'aas' Lefebvre](https://www.linkedin.com/in/lydericlefebvre/)
+* Author: [Lydéric Lefebvre](https://www.linkedin.com/in/lydericlefebvre/)
 
 ## Index
 
@@ -41,8 +41,8 @@ Here is what looks like a victim's web mail after the attack.
 ## Brute forcing credentials
 #### Requests
 Like password recovery form and register form, login form is also vulnerable. This allows an attacker to brute force credentials.
-![logi_rep](https://image.noelshack.com/fichiers/2018/34/6/1535220162-log-rep.png)
+![logi_req](https://image.noelshack.com/fichiers/2018/34/6/1535225018-log-req.png)
 
 #### Responses
 Here, one of the server responses:
-![logi](https://image.noelshack.com/fichiers/2018/34/6/1535219675-log-rep.png)
+![logi_rep](https://image.noelshack.com/fichiers/2018/34/6/1535219675-log-rep.png)
