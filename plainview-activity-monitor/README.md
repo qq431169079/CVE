@@ -1,6 +1,6 @@
 # RCE with [```Plainview Activity Monitor```](https://fr.wordpress.org/plugins/plainview-activity-monitor/) WordPress plugin  
 * Affected: ```Plainview Activity Monitor``` WordPress plugin.
-* Version: `4.7.11` and possibily prior
+* Version: `4.7.11` and possibly prior
 * Author: [Lydéric Lefebvre](https://www.linkedin.com/in/lydericlefebvre/)
 
 ## Index
