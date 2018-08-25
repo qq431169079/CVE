@@ -1,7 +1,7 @@
 # RCE with [```Plainview Activity Monitor```](https://fr.wordpress.org/plugins/plainview-activity-monitor/) WordPress plugin  
 * Affected: ```Plainview Activity Monitor``` WordPress plugin.
 * Version: `4.7.11` and possibly prior
-* Privileges required: yes
+* Privileges required: yes (but found CSRF & XSS can be combined - see [poc.html](https://github.com/aas-n/CVE/blob/master/plainview-activity-monitor/poc.html))
 * Author: [Lydéric Lefebvre](https://www.linkedin.com/in/lydericlefebvre/)
 
 ## Index
