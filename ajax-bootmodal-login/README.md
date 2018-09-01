@@ -1,8 +1,11 @@
-# Captcha reuse with [```ajax-boot-modal```](https://github.com/Alimir/ajax-bootmodal-login) WordPress plugin  
-* Affected: ```ajax-bootmodal-login``` WordPress plugin.
-* Version: `1.4.3` and possibly prior
-* Privileges required: None
-* Author: [Lydéric Lefebvre](https://www.linkedin.com/in/lydericlefebvre/)
+# Captcha Reusable with [```ajax-boot-modal```](https://github.com/Alimir/ajax-bootmodal-login) WordPress plugin  
+- Affected: ```ajax-bootmodal-login``` WordPress plugin.
+- Version: `1.4.3` and possibly prior
+- Privileges required: None
+- CVE-ID: ```CVE-2018-15876```
+- Author:
+  - [Lydéric Lefebvre](https://www.linkedin.com/in/lydericlefebvre/)
+  - [Fabien Haureils](https://www.linkedin.com/in/fabien-haureils/)
 
 ## Index
 
@@ -14,7 +17,8 @@
 | [Scenario3: Brute forcing credentials](#brute-forcing-credentials)  | Brute forcing credentials |
 
 ## Description
-Register form, login form and password recovery form needs CAPTCHA solving to perform actions. However, this captcha seems to be valid as long as the user session is valid. One could send as many requests as one wished by automatisation.
+Register form, login form and password recovery form need CAPTCHA solving to perform actions. However, these CAPTCHAs seem to be valid as long as the user session is valid. One could send as many requests as one wished by automatisation. This allows an attacker to spam large number of mail addresses, and brute-force credentials.
+
 ![plugin](https://image.noelshack.com/fichiers/2018/34/6/1535214692-plugin.png)
 
 ## Register victims using same CAPTCHA
